@@ -59,3 +59,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## GitHub
+
+remove git using rm -rf .git
+then init git 
+git init
+git add .
+git commit -m "Initial commit"
+
+
+Connect to GitHub again
+git remote add origin https://github.com/your-username/your-repository-name.git
+git branch -M main
+git push -u origin main --force
